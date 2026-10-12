@@ -1,0 +1,6 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.smoke-*/
+.codex-smoke-*/
+electron/.test-workspaces/

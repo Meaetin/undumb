@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["status", "summary", "question", "changedFiles", "checks"],
+  "properties": {
+    "status": { "type": "string", "enum": ["blocked", "completed"] },
+    "summary": { "type": "string" },
+    "question": { "type": "string" },
+    "changedFiles": { "type": "array", "items": { "type": "string" } },
+    "checks": { "type": "array", "items": { "type": "string" } }
+  }
+}

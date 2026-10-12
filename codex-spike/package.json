@@ -1,0 +1,16 @@
+{
+  "name": "boss-office-codex-spike",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lead:start": "node harness.mjs lead:start",
+    "lead:resume": "node harness.mjs lead:resume",
+    "intern:start": "node harness.mjs intern:start",
+    "intern:resume": "node harness.mjs intern:resume",
+    "verify": "node verify.mjs",
+    "app-server": "node app-server-harness.mjs",
+    "app-server:verify": "node verify-app-server.mjs",
+    "gate": "node gate-harness.mjs",
+    "gate:verify": "node verify-gate.mjs"
+  }
+}

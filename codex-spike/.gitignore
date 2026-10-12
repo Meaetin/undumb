@@ -1,0 +1,4 @@
+.runtime/
+fixture/node_modules/
+fixture/dist/
+fixture/*.tsbuildinfo
